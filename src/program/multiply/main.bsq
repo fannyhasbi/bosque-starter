@@ -1,0 +1,12 @@
+namespace NSMain;
+
+function multiply(x: Int, y: Int): Int {
+  return x * y;
+}
+
+entrypoint function main(): Int {
+  var a: Int = 10;
+  var b: Int = 20;
+
+  return multiply(a, b);
+}

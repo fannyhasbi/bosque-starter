@@ -1,0 +1,12 @@
+namespace NSMain;
+
+function add(x: Int, y: Int): Int {
+  return x + y;
+}
+
+entrypoint function main(): Int {
+  var a = 10;
+  var b = 30;
+
+  return add(a, b);
+}
