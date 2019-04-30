@@ -1,0 +1,20 @@
+namespace NSMain;
+
+function even_number(x: Int): Bool {
+  if(x % 2 == 0){
+    return true;
+  }
+
+  return false;
+}
+
+entrypoint function main(): String {
+  var a: Int = 14;
+
+  if(even_number(a) == true){
+    return "It's even!";
+  }
+  else {
+    return "It's odd!";
+  }
+}
